@@ -1,0 +1,42 @@
+# Kick Viewbot <img height=25 src="https://github.com/user-attachments/assets/c9728859-2739-4978-8262-6ef455ee0ddc">
+
+
+
+**Accountless `kick.com` viewerbot utilising `X-CLIENT-TOKEN` and heartbeats for stable, nondrop views. <br>**
+
+**Right now the limit is 250 viewers as the script isn't optimised, however, I have updated versions ready for when we hit Star Goals ⭐**
+<img width="1159" height="206" alt="image" src="https://github.com/user-attachments/assets/ac6c0167-cecd-4702-be9f-7fa45aeafaa6" />
+
+<br><br>
+
+## Usage (Python):
+* Download the repository 
+* Extract the downloaded folder
+* Open a Command Prompt in the folder with `kick.py`
+* Run `pip install -r requirements.txt`
+* Type `python kick.py` in the terminal and click Enter
+* Enter the inputs such as streamer name and amount of viewers
+
+## Usage (Go - 20K+ viewers):
+* Install Go from https://go.dev/dl/
+* Run `go mod tidy` to download dependencies
+* Run `go build -o kick.exe kick.go` (Windows) or `go build -o kick kick.go` (Linux/Mac)
+* Run `./kick` or `kick.exe`
+* Enter the inputs such as streamer name and amount of viewers
+
+Go version advantages:
+* Much lower memory usage per connection
+* Better goroutine scheduling for 20K+ concurrent connections
+* Faster startup and connection establishment
+* Native binary - no runtime dependencies
+<br><br>
+## **Star Goals:**
+
+~~⭐ 10 - Add Live Viewer tracking in Terminal~~ <br>
+~~⭐ 25 - Optimise Sockets (More viewers)~~ <br>
+~~⭐ 50 - Add Proxy Support (10K+ viewers)~~ <br>
+~~⭐ 100 - Make a `.GO` version (20K+ viewers at once)~~ ✅ <br>
+⭐ 250 - Make a website for botting kick viewers (No download)
+
+#
+Visit https://tiktool.pro/ for a quick, no download TikTok viewbot site.

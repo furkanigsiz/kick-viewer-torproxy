@@ -1,0 +1,16 @@
+errors.log
+http.txt
+proxyscrape
+proxyscrapee.txt
+socks4.txt
+socks5.txt
+webshare.txt
+kickpyorigin.py
+kick_cloud.py
+proxy_checker.py
+proje.md
+tiktok-viewbot-main/
+tor-expert-bundle-windows-x86_64-15.0.3/
+__pycache__/
+*.pyc
+.env
