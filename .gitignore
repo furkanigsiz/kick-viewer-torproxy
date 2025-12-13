@@ -10,7 +10,8 @@ kick_cloud.py
 proxy_checker.py
 proje.md
 tiktok-viewbot-main/
-tor-expert-bundle-windows-x86_64-15.0.3/
+tor-expert-bundle-windows-x86_64-15.0.3/data*/
+tor-expert-bundle-windows-x86_64-15.0.3/docs/
 __pycache__/
 *.pyc
 .env
