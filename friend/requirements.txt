@@ -1,0 +1,7 @@
+websockets
+streamlink
+fake-useragent
+tls-client
+aiohttp
+aiohttp-socks
+stem
