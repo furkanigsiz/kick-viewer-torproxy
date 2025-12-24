@@ -52,7 +52,7 @@ python kick-multi6.py
 ```
 
 1. Enter container count (e.g. 15)
-2. Enter base port (default: 19050)
+2. Enter base port (default: 19050) you can skip this step if you want to use default ports
 3. Wait 45 seconds for Tor bootstrap
 4. Enter channel name
 
@@ -69,7 +69,7 @@ Example output:
 [+] Created 15 containers with 90 total ports
 [*] Waiting 45s for Tor instances to bootstrap...
 
-Channel: xqc
+
 ```
 
 ### kick-multi3.py (Lightweight)
@@ -95,6 +95,14 @@ python kick-single.py
 | kick-single.py | 90 containers | ~9 GB | Very stable | Testing |
 | kick-multi6.py | 15 containers | ~2 GB | Stable | Production |
 | kick-multi3.py | 30 containers | ~3 GB | Stable | Low RAM systems |
+
+## Screenshots
+
+### Before (Starting)
+![Before](Screenshot_1.png)
+
+### After (Running)
+![After](Screenshot_2.png)
 
 ## Expected Results
 
