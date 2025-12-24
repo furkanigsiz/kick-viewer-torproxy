@@ -2,6 +2,19 @@
 
 Tor-based viewer bot for Kick.com. Uses Docker containers to run multiple Tor instances and increases viewer count through WebSocket connections.
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Files](#files)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Performance Comparison](#performance-comparison)
+- [Customization](#customization)
+- [Troubleshooting](#troubleshooting)
+- [Stats Explained](#stats-explained)
+- [How It Works](#how-it-works)
+
 ## Requirements
 
 - Python 3.8+
