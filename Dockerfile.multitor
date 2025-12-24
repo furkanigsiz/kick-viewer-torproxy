@@ -1,0 +1,7 @@
+FROM alpine:latest
+RUN apk add --no-cache tor
+COPY torrc.template /etc/tor/torrc.template
+COPY start-tor.sh /start-tor.sh
+RUN chmod +x /start-tor.sh
+EXPOSE 9050-9055
+CMD ["/start-tor.sh"]

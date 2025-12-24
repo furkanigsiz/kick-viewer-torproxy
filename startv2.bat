@@ -32,5 +32,5 @@ python tor_bootstrap_check.py
 
 echo.
 echo [*] Starting viewer bot v2...
-python kick.py
+python kickv2.py
 pause
