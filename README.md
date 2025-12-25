@@ -1,5 +1,7 @@
 # Kick Viewer Bot (Tor Proxy)
 
+THIS IS FOR EDUCATİONAL PURPOSES ONLY
+
 Tor-based viewer bot for Kick.com. Uses Docker containers to run multiple Tor instances and increases viewer count through WebSocket connections.
 
 ## Table of Contents
